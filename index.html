@@ -69,15 +69,13 @@ $(window).on('resize', function() {
 
 
 // Game State 
-
-
 var states = {
     splash: 0,
     title: 1,
     Game: 2,
     End: 3
 };
-var currentState = states.splash;
+var currentState = states.title;
 
 //Game Loop
 //var FPS = 60;
@@ -127,6 +125,8 @@ function setUpKeys() {
     });
 };
 setUpKeys();
+
+
 
 var notyet = 0;    
 function clearTimer() {
